@@ -1,7 +1,7 @@
 function theBeatlesPlay(musicians, instruments){
   let result = []
   for(let i = 0; i < musicians.length; i++){
-    result[i] = musicians[i] + "plays " + instruments[i]
+    result[i] = musicians[i] + " plays " + instruments[i]
   }
   return result
 }
@@ -9,7 +9,7 @@ function theBeatlesPlay(musicians, instruments){
 function johnLennonFacts(facts){
   let result = []
   let i = 0;
-  while(i < facts.lenght){
+  while(i <= facts.lenght){
     result[i] = facts[i] + "!!!"
     i++;
   }
