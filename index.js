@@ -23,7 +23,5 @@ function iLoveTheBeatles(number){
     result[i] = "I love the Beatles!"
     i++
   } while (i < number)
-
-
   return result
 }
