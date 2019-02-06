@@ -18,12 +18,12 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(number){
   let result = []
-  let i = 0;
+  let i = 0
   do {
-    result[i] = "I love the Beatles!";
-    i++;
+    result[i] = "I love the Beatles!"
+    i++
   } while (i < number)
-  
-  
+
+
   return result
 }
